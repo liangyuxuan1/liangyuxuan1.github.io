@@ -41,7 +41,7 @@ education:
     - course: Ph.D. Student in Biomedical Engineering
       institution: Rensselaer Polytechnic Institute
       year: 2022-present
-    - course: B.Sc. in Optical Engineering
+    - course: B.Sc. in Physics
       institution: University of Science and Technology of China
       year: 2022
 
@@ -119,7 +119,7 @@ social:
 highlight_name: true
 ---
 
-I am a Ph.D. student at the [Department of Biomedical Engineering](https://bme.rpi.edu/), [Rensselaer Polytechnic Institute](https://www.rpi.edu/), USA, co-advised by [Prof. Ge Wang](https://faculty.rpi.edu/ge-wang) and [Prof. Pingkun Yan](https://faculty.rpi.edu/pingkun-yan) at the [Biomedical Imaging Center](https://biotech.rpi.edu/biomedical-imaging-center). My current research focuses on medical imaging and medical image analysis. Previously, I obtained my B.Sc. in Optical Engineering from the [University of Science and Technology of China](https://www.ustc.edu.cn). In my undergraduate studies, I focused on wavefront modulation methods using deep learning, under the supervision of [Prof. Xiaoye Xu](https://faculty.ustc.edu.cn/xuxiaoye) and [Prof. Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/).
+I am a Ph.D. student at the [Department of Biomedical Engineering](https://bme.rpi.edu/), [Rensselaer Polytechnic Institute](https://www.rpi.edu/), USA, co-advised by [Prof. Ge Wang](https://faculty.rpi.edu/ge-wang) and [Prof. Pingkun Yan](https://faculty.rpi.edu/pingkun-yan) at the [Biomedical Imaging Center](https://biotech.rpi.edu/biomedical-imaging-center). My current research focuses on medical imaging and medical image analysis. Previously, I obtained my B.Sc. in Physics from the [University of Science and Technology of China](https://www.ustc.edu.cn). In my undergraduate studies, I focused on wavefront modulation methods using deep learning, under the supervision of [Prof. Xiaoye Xu](https://faculty.ustc.edu.cn/xuxiaoye) and [Prof. Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/).
 
 Prof. Ge Wang's Lab: [AI-based X-ray Imaging System (AXIS) lab](https://wang-axis.github.io/)
 
