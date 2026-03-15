@@ -32,8 +32,8 @@ interests:
   - Medical physics
   - Medical imaging
   - Medical image analysis
-  - Deep learning
-  - Network interpretability
+  - Knowledge learning
+  - Artifical intelligence
 
 # Education to show in About widget
 education:
