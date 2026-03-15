@@ -13,7 +13,7 @@ date: '2026-01-01'
 publishDate: '2026-03-15T02:55:53.122318Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*'
+publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*, 10(3):359-370'
 doi: 10.1109/TRPMS.2025.3593080
 tags:
 - Image reconstruction;Computed tomography;Training;Noise reduction;Photonics;Detectors;Deblurring;Correlation;Biomedical
