@@ -19,12 +19,15 @@ main:
   - name: Publications
     url: '#featured'
     weight: 30
+  - name: CV
+    url: uploads/Liang_Y_CV_202603.pdf
+    weight: 40
   - name: Contact
     url: '#contact'
-    weight: 40
+    weight: 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
- - name: CV
-   url: uploads/Liang_Y_CV_202603.pdf
-   weight: 70
+  # - name: CV
+  #   url: uploads/Liang_Y_CV_202603.pdf
+  #   weight: 70
