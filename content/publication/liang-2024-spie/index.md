@@ -10,7 +10,7 @@ date: '2024-01-01'
 publishDate: '2025-12-08T09:13:46.096663Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of SPIE Volume 13152, Developments in X-Ray Tomography XV; 1315224*'
+publication: '*Proceedings of SPIE Volume 13152, Developments in X-Ray Tomography XV*, 1315224'
 doi: 10.1117/12.3028247
 tags:
 - SPECT
