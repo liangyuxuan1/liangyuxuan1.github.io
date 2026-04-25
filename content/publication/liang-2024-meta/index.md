@@ -10,7 +10,10 @@ date: '2024-01-01'
 publishDate: '2024-07-07T03:09:12.563462Z'
 publication_types:
 - article-journal
-publication: '*Meta-Radiology*, 2(3):100084'
+publication: '*Meta-Radiology*, 2(3): 100084'
+volume: '2'
+number: '3'
+pages: '100084'
 doi: https://doi.org/10.1016/j.metrad.2024.100084
 abstract: Fairness of artificial intelligence and machine learning models, often caused
   by imbalanced datasets, has long been a concern. While many efforts aim to minimize

@@ -11,7 +11,9 @@ date: '2024-01-01'
 publishDate: '2025-12-08T09:13:46.106368Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of SPIE Volume 13152, Developments in X-Ray Tomography XV*, 131521L'
+publication: '*Developments in X-Ray Tomography XV*, 13152: 131521L'
+volume: '13152'
+pages: '131521L'
 doi: 10.1117/12.3029550
 tags:
 - X-ray CT
