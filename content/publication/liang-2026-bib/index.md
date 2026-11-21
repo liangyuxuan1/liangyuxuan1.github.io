@@ -37,4 +37,5 @@ abstract: Deciphering which transcription factor (TF) motif instances are functi
 links:
 - name: URL
   url: https://doi.org/10.1093/bib/bbag422
+featured: true
 ---

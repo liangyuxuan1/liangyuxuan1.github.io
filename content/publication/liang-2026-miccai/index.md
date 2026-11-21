@@ -29,4 +29,5 @@ abstract: Cardiovascular disease (CVD) modeling has become highly accurate, yet 
 links:
 - name: URL
   url: https://doi.org/10.1007/978-3-032-38172-9_38
+featured: true
 ---

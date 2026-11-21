@@ -26,4 +26,5 @@ abstract: Flipover, an enhanced dropout technique, is introduced to improve the 
 links:
 - name: URL
   url: https://vciba.springeropen.com/articles/10.1186/s42492-024-00153-y
+featured: false
 ---

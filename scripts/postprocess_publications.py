@@ -82,7 +82,9 @@ def split_front_matter_blocks(front_matter: str) -> list[tuple[str | None, list[
     return blocks
 
 
-def update_front_matter(front_matter: str, fields: dict[str, str]) -> str:
+def update_front_matter(
+    front_matter: str, fields: dict[str, str], *, has_featured_image: bool = False
+) -> str:
     publication_value = build_publication_value(fields)
     volume = fields.get("volume", "").strip()
     number = fields.get("number", "").strip()
@@ -93,6 +95,8 @@ def update_front_matter(front_matter: str, fields: dict[str, str]) -> str:
     inserted = False
 
     for key, lines in blocks:
+        if key == "featured" and has_featured_image:
+            continue
         if key in {"publication", "volume", "number", "pages"}:
             continue
 
@@ -119,6 +123,11 @@ def update_front_matter(front_matter: str, fields: dict[str, str]) -> str:
         if pages:
             filtered.append(("pages", [f"pages: {yaml_quote(pages)}"]))
 
+    # Academic --overwrite removes manually added front matter. Restore the
+    # homepage selection from image assets, which survive the import.
+    if has_featured_image:
+        filtered.append(("featured", ["featured: true"]))
+
     return "\n".join("\n".join(lines) for _, lines in filtered) + "\n"
 
 
@@ -129,9 +138,6 @@ def process_publication_dir(pub_dir: Path) -> bool:
         return False
 
     fields = parse_bib_fields(bib_path.read_text(encoding="utf-8"))
-    if not any(fields.get(name) for name in ("journal", "booktitle", "volume", "number", "pages")):
-        return False
-
     text = index_path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
         return False
@@ -141,7 +147,15 @@ def process_publication_dir(pub_dir: Path) -> bool:
     except ValueError:
         return False
 
-    new_front_matter = update_front_matter(front_matter, fields)
+    has_featured_image = any(
+        path.is_file()
+        and path.stem.lower() == "featured"
+        and path.suffix.lower() in {".jpg", ".jpeg", ".png"}
+        for path in pub_dir.iterdir()
+    )
+    new_front_matter = update_front_matter(
+        front_matter, fields, has_featured_image=has_featured_image
+    )
     new_text = f"---\n{new_front_matter}---\n{body}"
 
     if new_text != text:

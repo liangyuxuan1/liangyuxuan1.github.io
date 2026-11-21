@@ -38,4 +38,5 @@ tags:
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S2950162824000377
+featured: true
 ---
