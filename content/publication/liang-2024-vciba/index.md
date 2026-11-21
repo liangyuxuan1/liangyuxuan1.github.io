@@ -6,7 +6,7 @@ authors:
 - Pingkun Yan
 - Ge Wang
 date: '2024-02-01'
-publishDate: '2026-11-21T09:35:47.379575Z'
+publishDate: '2026-11-21T09:49:47.142107Z'
 publication_types:
 - article-journal
 publication: '*Visual Computing for Industry, Biomedicine, and Art*, 7(4): 074001'
