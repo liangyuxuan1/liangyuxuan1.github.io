@@ -7,7 +7,7 @@ authors:
 - Ge Wang
 - Pingkun Yan
 date: '2024-01-01'
-publishDate: '2024-07-07T03:09:12.563462Z'
+publishDate: '2026-11-21T09:35:47.384082Z'
 publication_types:
 - article-journal
 publication: '*Meta-Radiology*, 2(3): 100084'
@@ -38,17 +38,4 @@ tags:
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S2950162824000377
-
-
-# Display this page in the Featured widget?
-featured: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-
 ---

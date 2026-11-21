@@ -7,7 +7,7 @@ authors:
 - Hengyong Yu
 - Ge Wang
 date: '2024-01-01'
-publishDate: '2025-12-08T09:13:46.096663Z'
+publishDate: '2026-11-21T09:35:47.388701Z'
 publication_types:
 - paper-conference
 publication: '*Developments in X-Ray Tomography XV*, 13152: 1315224'

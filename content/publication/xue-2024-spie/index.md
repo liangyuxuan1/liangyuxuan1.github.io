@@ -8,7 +8,7 @@ authors:
 - Xavier R. Intes
 - Ge Wang
 date: '2024-01-01'
-publishDate: '2025-12-08T09:13:46.106368Z'
+publishDate: '2026-11-21T09:35:47.392922Z'
 publication_types:
 - paper-conference
 publication: '*Developments in X-Ray Tomography XV*, 13152: 131521L'
