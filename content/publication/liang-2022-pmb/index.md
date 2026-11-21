@@ -8,7 +8,7 @@ authors:
 - Wenxiang Cong
 - Ge Wang
 date: '2022-03-01'
-publishDate: '2026-11-21T09:49:47.131662Z'
+publishDate: '2026-11-21T10:03:58.773707Z'
 publication_types:
 - article-journal
 publication: '*Physics in Medicine & Biology*, 67(7): 074001'

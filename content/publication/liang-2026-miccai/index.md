@@ -6,12 +6,13 @@ authors:
 - Ge Wang
 - Pingkun Yan
 date: '2027-01-01'
-publishDate: '2026-11-21T09:49:47.183907Z'
+publishDate: '2026-11-21T10:03:58.815733Z'
 publication_types:
 - paper-conference
 publication: '*Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026*, Lecture Notes in Computer Science, vol 16887: 397--407'
 volume: 'Lecture Notes in Computer Science, vol 16887'
 pages: '397--407'
+doi: 10.1007/978-3-032-38172-9_38
 abstract: Cardiovascular disease (CVD) modeling has become highly accurate, yet most
   models remain ``black boxes'' that prioritize predictive scores over reliable and
   reusable clinical knowledge. We propose Evidence-Grounded Learning (EGL), which
@@ -25,4 +26,7 @@ abstract: Cardiovascular disease (CVD) modeling has become highly accurate, yet 
   stable dominant factors and redirecting evidence acquisition toward alternative
   interaction neighborhoods, supporting evidence-grounded discovery that yields auditable
   cohort-level insights. Code is available at https://github.com/liangyuxuan1/EGL.
+links:
+- name: URL
+  url: https://doi.org/10.1007/978-3-032-38172-9_38
 ---
