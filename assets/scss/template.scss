@@ -60,3 +60,20 @@ h6 {
 .cta-group {
   justify-content: center;
 }
+
+// Keep publication diagrams complete in a consistent preview area.
+.view-card .publication-image-contain {
+  aspect-ratio: 808 / 455;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-card .publication-image-contain img,
+.view-card .publication-image-contain:hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: none;
+  transition: none;
+}
