@@ -1,4 +1,4 @@
-{{/* Local override of blox-bootstrap v5.9.6: do not crop publication diagrams. */}}
+{{/* Local override of blox-bootstrap v5.9.6: preserve complete, sharp publication diagrams. */}}
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
@@ -39,11 +39,15 @@
   {{ with $resource }}
     {{ $image := . }}
     {{ if eq $item.Type "publication" }}
-      {{ $image = .Fit "808x455" }}
+      {{/* Width-only resizing avoids shrinking square diagrams to 455px high.
+           Keep PNGs lossless and never upscale smaller source images. */}}
+      {{ if gt .Width 1600 }}
+        {{ $image = .Resize "1600x" }}
+      {{ end }}
     {{ else }}
       {{ $image = .Fill (printf "808x455 %s" $anchor) }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     {{ end }}
-    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom{{ if eq $item.Type "publication" }} publication-image-contain{{ end }}">
         <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
