@@ -8,7 +8,7 @@ authors:
 - Pingkun Yan
 - Ge Wang
 date: '2026-07-01'
-publishDate: '2026-08-16T07:20:31.583557Z'
+publishDate: '2026-11-21T09:35:47.401439Z'
 publication_types:
 - article-journal
 publication: '*Briefings in Bioinformatics*, 27(4): bbag422'
@@ -37,14 +37,4 @@ abstract: Deciphering which transcription factor (TF) motif instances are functi
 links:
 - name: URL
   url: https://doi.org/10.1093/bib/bbag422
-
-# Display this page in the Featured widget?
-featured: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
 ---

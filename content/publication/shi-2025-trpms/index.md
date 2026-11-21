@@ -10,7 +10,7 @@ authors:
 - Bruno De Man
 - Ge Wang
 date: '2026-01-01'
-publishDate: '2026-03-15T02:55:53.122318Z'
+publishDate: '2026-11-21T09:35:47.397388Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Radiation and Plasma Medical Sciences*, 10(3): 359-370'
