@@ -8,7 +8,7 @@ authors:
 - Pingkun Yan
 - Ge Wang
 date: '2026-07-01'
-publishDate: '2026-11-21T09:49:47.176503Z'
+publishDate: '2026-11-21T10:03:58.809715Z'
 publication_types:
 - article-journal
 publication: '*Briefings in Bioinformatics*, 27(4): bbag422'
